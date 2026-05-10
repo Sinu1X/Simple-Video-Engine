@@ -11,7 +11,7 @@ def draw(br):
     return CHARS[index]
 
 
-capture = cv2.VideoCapture("video111.mp4")
+capture = cv2.VideoCapture("---") # Enter your video name instead of "---", video must be in the same folder as this script.
 if os.name == 'nt':
     os.system('')
 
